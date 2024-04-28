@@ -1,0 +1,81 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.userPreference {
+    width: 100%;
+}
+.container{
+    width: 80% ;
+    margin : auto ;
+    display: flex;
+
+}
+.header{
+    width: 100% ;
+    padding: 20px 20px;
+    background-color: maroon;
+}
+.logo{
+    width: 30%;
+    font-size: 26px;
+    font-weight: 700;
+    color: #cacaca;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.label {
+    color: #cacaca;
+    font-size: 16px;
+}
+.fontControl , .themeControl {
+    padding: 3px 8px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #cacaca;
+}
+.menu{
+    width: 70%;
+    display: flex;
+    justify-content: flex-end;
+}
+.menu .mainMenu{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.resetControl{
+    padding: 8px 20px;
+    background-color:#cacaca ;
+    border-radius: 5px;
+    color: #000;
+    border: none;
+    cursor: pointer;
+
+    font-size: 14px;
+    font-weight: 600;
+}
+label{
+    font-size: 16px;
+
+
+}
+.fontControl{
+   
+}
+.themeControl{
+
+}
+
+.banner{
+    width: 100%;
+    height: 100vh;
+    padding: 60px 0px;
+    background: #cacaca;
+}
+.mainText{
+    font-size: 16px;
+}
